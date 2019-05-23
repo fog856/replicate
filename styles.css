@@ -1,0 +1,490 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+a
+{
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+  }
+  .plink:hover
+  {
+      color: orange;
+  }
+.feedback
+{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top:0;
+    width:200px;
+    height: 200px;
+    background-color: yellow;
+    
+}
+.containerlogininput {
+    padding: 12px;
+  }
+  .containerc {
+    display: block;
+    position: relative;
+    padding-left: 44px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .containerc input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 13px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  .containerc input:checked ~ .checkmark {
+    background-color: #ad2826;
+  }
+  
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .containerc input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .containerc .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+.topwhiteborder{
+    width: 100%;
+    height: 153px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.schollogo
+{
+    position:absolute;
+    left: 17.4%;
+    top: 67px;
+}
+.scholfull
+{
+    position:absolute;
+    left: 17.4%;
+    top: 111px;
+}
+.flyguy
+{
+    position: absolute;
+    left : 66.5%;
+    top: 75px;
+
+}
+.redsigninbox
+{
+    position: relative;
+    width: 100%;
+    height: 358px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    background-color:#d83230;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 20px solid #ad2826;
+}
+.loginbox
+{
+    position: absolute;
+    height: 240px;
+    width: 309px;
+    top: 86px;
+    left: 17.4%;
+    background-color: #ad2826;
+}
+.teacherbox
+{
+    position: absolute;
+    height: 191px;
+    width: 310px;
+    bottom: 0px;
+    left: 323px;
+    background-color: #ad2826;
+}
+.firstsignin
+{
+    position: absolute;
+    height: 45px;
+    width: 638px;
+    top: 0px;
+    left: 323px;
+    background-color: #d83230;
+}
+.parentbox
+{
+    position: absolute;
+    height: 191px;
+    width: 310px;
+    bottom: 0px;
+    left: 651px;
+    background-color: #ad2826;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px 14px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #f28005;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 6px 0px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    background-color:  #f64f1c;
+  }
+  .button1
+  {
+    position:absolute;
+    top: 123px;
+    background-color: #3fb0eb;
+    text-align: center;
+    width:93%;
+  }
+  .button1:hover
+  {
+      background-color: #3197db;
+  }
+  .button2
+  {
+    position:absolute;
+    top: 123px;
+    background-color: #f28005;
+    text-align: center;
+    width:93%;
+  }
+  .hlinebefore
+  {
+    width:100%; text-align:center; border-bottom: 1px solid white; line-height:0.1em; margin:10px 0 20px;
+  }
+  .hlinebefore1234
+  {
+    width:100%; text-align:center; border-bottom: 1px solid brown; line-height:0.1em; margin:10px 0 20px;
+  }
+  h1 span { 
+      background:white; padding:0 10px; }
+.spanfirst
+{
+          background: #d83230;
+          padding: 0 10px;
+}
+
+ .bluebg{
+        width: 100%;
+        height: 430px;
+        background-color: rebeccapurple;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 3px;
+        background-image: url("bgscho.jpg");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size:cover;
+        position: relative;
+}
+.containerbluebg
+{
+    position: absolute;
+    width: 950px;
+
+    margin: 0%;
+    padding: 0px;
+    height: 396px;
+    left: 17.4%;
+}
+.howtogrow
+{
+    width: 100%;
+    height: 430px;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.containerhowtogrow
+{
+    position: absolute;
+    width: 950px;
+    margin: 0%;
+    margin-top: 20px;
+    padding: 0px;
+    height: 409px;
+    left: 17.4%;
+}
+.container1
+{
+    background-color:white;
+    width:224px;
+    height:280px;
+    left: 0px;
+    bottom:35px;
+    position: absolute;
+}
+.container2
+{
+    background-color:white;
+    width:224px;
+    height:280px;
+    left: 236px;
+    bottom:0px;
+    position: absolute;
+}
+.container3
+{
+    background-color:white;
+    width:224px;
+    height:280px;
+    left: 236px;
+    bottom:0px;
+    position: absolute;
+}
+.container4
+{
+    background-color:white;
+    width:224px;
+    height:280px;
+    left: 236px;
+    bottom:0px;
+    position: absolute;
+}
+.howtostart
+{
+    width: 100%;
+    height: 488px;
+    background-color: #f4f1ea;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.containerstart
+{
+    position: absolute;
+    width: 950px;
+    margin: 0%;
+    margin-top: 20px;
+    padding: 0px;
+    height: 449px;
+    left: 17.4%;
+}
+.containerscroll
+{
+    border: 2px solid gray;
+    position: absolute;
+    left: 650px;
+    width: 295px;
+    height: 360px;
+    bottom: 0px;
+    overflow: scroll;
+    
+}
+.exclusive{
+    width: 100%;
+    height: 248px;
+  
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+.xcontainer
+{
+    
+    width: 933px;
+    height: 248px;
+    margin:20px;
+    margin-top: 65px;
+    position: absolute;
+    left: 17%;
+    top: 0px;
+}
+.shopcontainer
+{
+    position:absolute;
+    
+    width:230px;
+    height: 89px;  
+    border-left: 2px solid firebrick;
+}
+.introducecontainer
+{
+    position:absolute;
+   
+    width:230px;
+    height: 89px;  
+    left: 230px;
+    border-left: 2px solid firebrick;
+}
+.signincontainer
+{
+    position:absolute;
+    
+    width:230px;
+    height: 89px;  
+    left: 460px;
+    border-left: 2px solid firebrick;
+}
+.applecontainer
+{
+    position:absolute;
+    
+    width:235px;
+    height: 89px;  
+    left: 690px;
+    border-left: 2px solid firebrick;
+    border-right: 2px solid firebrick;
+}
+.pexclusive
+{
+    font-size: 21px;
+    text-align: center;
+    color:black;
+    font-family: Roboto;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.started
+{
+    width: 100%;
+    height: 207px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    font-family: Roboto;
+    font-family: bold;
+    background-color: #f4f1ea;
+   
+}
+.startcontainer
+{
+    width: 933px;
+    height: 205px;
+    margin:20px;
+    margin-top: 0px;
+    position: absolute;
+    left: 17%;
+    top: 0px;
+    
+
+}
+.teachcontainer
+{
+    width: 468px;
+    height: 119px;
+  
+    position:absolute;
+}
+.parentcontainer
+{
+    width: 468px;
+    height: 119px;
+    left:468px;
+    
+    position:absolute;
+}
+.emptywhite{
+    width: 100%;
+    height: 95px;
+    padding: 0px;
+    margin: 0px;
+    background-color:white;
+    position: relative;
+}
+.prefooter{
+    width: 100%;
+    height: 170px;
+    padding: 0px;
+    margin: 0px;
+    background-color:#f4f1ea;
+    position: relative;
+}
+.additionaltoxcontainer
+{
+    margin-top:0px;
+   
+    height:170px;
+}
+.additionaltocontainer
+{
+    
+    border-left: 2px solid white;
+    height:170px;
+    margin:0px;
+    position:absolute;
+    top: 0px;
+    padding:0px;
+}
+.preftxt
+{
+    font-family: Helvetica;
+    text-align: left;
+    margin: 12px;
+    font-size: 16px;
+    color:black;
+}
+
+.foot{
+    width: 100%;
+    height: 150px;
+    padding: 0px;
+    margin: 0px;
+    background-color:white;
+    position: relative;
+}
+ 
